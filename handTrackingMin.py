@@ -32,7 +32,7 @@ while True:
     cTime = time.time()
     fps = 1/(cTime-pTime)
     pTime = cTime
-
+    print("Something cool.")
     cv2.putText(img, str(int(fps)), (10,70), cv2.FONT_HERSHEY_COMPLEX, 2, (255,155,240), 2)
 
     cv2.imshow("/Image", img)
